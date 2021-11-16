@@ -2,3 +2,7 @@ img.food-image {
     height: auto;
     width: 600px;
 }
+
+body {
+    background-color: lavenderblush;
+}
