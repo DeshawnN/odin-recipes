@@ -19,12 +19,26 @@ body {
 }
 ul {
     list-style-type: none;
-    padding: 0;
 }
 ul, ol {
     list-style-position: inside;
 }
 
-h1, h2, li, p {
+h1, h2, p {
     text-align: center;
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+li {
+    text-align: center;
+    padding: 5px;
+}
+
+.content ol li, .content ul li {
+    text-align: left;
+    padding: 10px;
 }
